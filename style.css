@@ -1,1 +1,38 @@
-fefefefew
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+header > h1 {
+  color: rgb(179, 245, 218);
+  text-align: center;
+  font-family: Asap, sans-serif;
+  background: rgb(186, 9, 202);
+  padding: 20px;
+}
+
+body {
+  background-image: url("imgf/imagefon.jpg");
+}
+
+.time-board {
+margin:50px 1200px;
+border: 6px solid white;
+width: 150px;
+font-size: 50px;
+text-align: center;
+
+}
+
+.choise {
+  display: inline-block;
+}
+
+.choises {
+  
+  margin: -240px 30px  ;
+  text-align: right;
+}
