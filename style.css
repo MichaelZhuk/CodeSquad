@@ -5,12 +5,16 @@
 }
 
 
+header {
+  background: rgba(0,0,0,0.7);
+  text-align: center;
 
+}
 header > h1 {
   color: rgb(179, 245, 218);
   text-align: center;
   font-family: Asap, sans-serif;
-  background: rgb(186, 9, 202);
+  
   padding: 20px;
 }
 
@@ -18,13 +22,14 @@ body {
   background-image: url("imgf/imagefon.jpg");
 }
 
-.time-board {
-margin:50px 1200px;
+.time_board {
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
 border: 6px solid white;
 width: 150px;
 font-size: 50px;
 text-align: center;
-
 }
 
 .choise {
@@ -32,7 +37,59 @@ text-align: center;
 }
 
 .choises {
-  
-  margin: -240px 30px  ;
-  text-align: right;
+  width: 45%;
+    float: right;
+    margin-top: -70px;
+  /*margin: -240px 30px;*/
+}
+
+.animal {
+  margin-top: 30px;
+  margin-right: 50px;
+  display: inline-block;
+  border: 5px solid green;
+}
+.animal:last-child {
+  margin-right: 0;;
+}
+
+.animals_wrapper {
+  clear: both;
+  padding: 0 30px;
+  text-align: center;
+}
+.animals_wrapper img {
+  width: 156px;
+  height: 252px;
+}
+#money {
+  position: relative;
+  top: -26px;
+  margin-right: 60px;
+  display: inline-block;
+}
+#money img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+#money span {
+  color: green;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+h2 {
+  color: #fff;
+}
+.ramka {
+  width: 156px;
+  height: 252px;
+  border: 5px solid purple;
+  margin-top: 15px;
+}
+#feeding {
+  border-color: cyan;
 }
